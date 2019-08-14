@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+    <name>Techinflo_Instamojo</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL 3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Techinflo Instamojo Payment gateway helps the magento customer to utilize the feature of making payments online using Debit/Credit Cards and also through Net banking as well.</summary>
+    <description>Techinflo Instamojo Payment gateway helps the magento customer to utilize the feature of making payments online.&#xD;
+All you need to have is a instamojo account and payment link to receive the payments.&#xD;
+&#xD;
+This extension avails;&#xD;
+1. Debit Card Payments&#xD;
+2. Credit Card Payments&#xD;
+3. Net Banking Payments</description>
+    <notes>Techinflo Instamojo Payment gateway helps the magento customer to utilize the feature of making payments online.&#xD;
+All you need to have is a instamojo account and payment link to receive the payments.&#xD;
+&#xD;
+This extension avails;&#xD;
+1. Debit Card Payments&#xD;
+2. Credit Card Payments&#xD;
+3. Net Banking Payments</notes>
+    <authors><author><name>Techinflo</name><user>Techinflo</user><email>sampath@techinflo.com</email></author></authors>
+    <date>2015-04-09</date>
+    <time>10:43:41</time>
+    <contents><target name="mageetc"><dir><dir name="modules"><file name="Techinflo_Instamojo.xml" hash="6d125611e98b76161f346dc2648b3891"/></dir></dir></target><target name="magelocal"><dir><dir name="Techinflo"><dir name="Instamojo"><dir><dir name="Helper"><file name="Data.php" hash="2837630f0271a2c87990f9babc102b09"/></dir><dir name="Model"><file name="Standard.php" hash="758f9aa24e95cf0b72b59cdcbe175c74"/></dir><dir name="controllers"><file name="PaymentController.php" hash="4659346753c5f12d6863ae7e6c47ae53"/></dir><dir name="etc"><file name="config.xml" hash="9bda97b0037f1bbd538605d86da9f027"/><file name="system.xml" hash="cf4645dfaf8a181030abd0cf3be38ee4"/></dir></dir></dir></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="instamojo"><file name="redirect.phtml" hash="d0c8146eb679fc576ec6913cf91ff53a"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.1.0</max></php></required></dependencies>
+</package>

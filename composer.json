@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Techinflo_Instamojo",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "homepage": "",
+    "description": "Techinflo Instamojo Payment gateway helps the magento customer to utilize the feature of making payments online using Debit/Credit Cards and also through Net banking as well.",
+    "authors": [
+    {
+        "name": "Techinflo",
+        "email": "sampath@techinflo.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
